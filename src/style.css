@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(249, 247, 254);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  padding-bottom: 0;
+  text-align: center;
+  margin: 60px auto;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.formsInput {
+  font-size: 16px;
+  padding: 20px;
+  width: 74%;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(249, 247, 254);
+  margin: 0 5px;
+}
+.searchButton {
+  font-size: 16px;
+  padding: 20px;
+  background-color: rgb(243, 77, 154);
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.dateTime {
+  text-align: start;
+  margin-top: 60px;
+}
+
+.dateTime h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.dateTime p {
+  font-size: 18px;
+  color: gray;
+}
+
+p strong {
+  color: rgb(136, 93, 241);
+}
+
+.temperature {
+  position: relative;
+  top: -130px;
+  left: 200px;
+}
+
+.temperatureNumber {
+  font-size: 80px;
+  font-weight: 700;
+}
+.temperatureIcon {
+  position: relative;
+  left: 20px;
+  font-size: 40px;
+  top: -8px;
+}
+.temperatureUnit {
+  font-size: 30px;
+  position: relative;
+  top: -40px;
+  right: 12px;
+}
+
+footer {
+  position: relative;
+  top: -60px;
+}
+
+footer p {
+  color: grey;
+}
+p a {
+  color: rgb(243, 77, 154);
+  text-decoration: none;
+}
